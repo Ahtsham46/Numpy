@@ -1,0 +1,10 @@
+import numpy as np
+data = np.arange(10)
+dataset = np.array(data)
+mean = np.mean(dataset)
+median = np.median(dataset)
+std_deviation = np.std(dataset)
+print(f'Dataset = {dataset}')
+print(f'Mean of dataset = {mean}')
+print(f'Median if dataset = {median}')
+print(f'Std_deviation of dataset = {std_deviation}')
